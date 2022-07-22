@@ -4,6 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
 	res.send('Stem K Start!');
+    return res.status(200).end();
 });
 
 app.listen(port, () => {
