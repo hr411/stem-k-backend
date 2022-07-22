@@ -1,0 +1,5 @@
+node_modules
+src/config/config.json
+src/config/index.js
+/.idea
+.env
